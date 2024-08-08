@@ -1,0 +1,441 @@
+@import url("/assets/fonts/benzin/stylesheet.css");
+@import url("/assets/fonts/stem/stylesheet.css");
+@media screen and (max-width:900px) {
+    .section-fifth .section-content::after, nav.navbar .navbar-logotype-text, .section-first::after, .section-second .section-content::before{
+        display: none!important;
+    }
+    .section-first .section-first-content .section-first-content-itself{
+        width: 100%;
+    }
+    .section-first-content-dm{
+        font-size: 48px!important;
+        line-height: normal!important;
+    }
+    .section-content-after{
+        font-size: 72px!important;
+        left: 0!important;
+        bottom: 0!important;
+        right: 0!important;
+        text-align: center!important;
+    }
+    .section-first .section-content{
+        padding: 0px!important;
+    }
+    .section-content, .section-fourth-content{
+        padding: 20px!important;
+    }
+    .section-second .section-content .section-content-info{
+        margin: 0px!important;
+    }
+    .section-third{
+        background-image: none!important;
+    }
+    .section-fourth, .section-fourth-content{
+        height: fit-content!important;
+    }
+    .section-fourth-content{
+        padding-bottom: 128px!important;
+    }
+    .section-sixth .section-content-socials{
+        justify-content: left!important;
+    }
+    footer.footer{
+        display: block!important;
+        text-align: center!important;
+    }
+    .footer-elements-second{
+        text-align: center!important;
+        margin-top: 1em;
+    }
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-family: "Stem", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+nav.navbar{
+    height: 82px;
+    display: flex;
+    border-bottom: 3.02px solid #e1e1e1;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 2048;
+    transition: top .2s;
+}
+nav.navbar .navbar-content{
+    width: 100%;
+    max-width: 1364px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+nav.navbar .navbar-content .navbar-logotype{
+    display: flex;
+    align-items: center;
+}
+nav.navbar .navbar-content .navbar-logotype{
+    background-image: url("/assets/svgs/DanielMyslivets.svg");
+    background-size: 108px 45px;
+    height: 45px;
+    background-repeat: no-repeat;
+    padding-left: 118px;
+}
+nav.navbar .navbar-content .navbar-logotype img{
+    display: block;
+    margin-right: 10px;
+}
+nav.navbar .navbar-content .navbar-logotype .navbar-logotype-text{
+    line-height: 19px;
+    user-select: none;
+    font-family: "Benzin";
+    color:#6487fa;
+    font-weight: 500;
+    font-size: 22px;
+}
+nav.navbar .navbar-elements, nav.navbar .navbar-elements .navbar-element{
+    display: flex;
+    align-items: center;
+}
+nav.navbar .navbar-elements .navbar-element{
+    justify-content: center;
+}
+nav.navbar .navbar-elements{
+    margin-left: auto;
+}
+nav.navbar .navbar-elements .navbar-element{
+    cursor: pointer;
+}
+nav.navbar .navbar-elements .navbar-element svg:first-child{
+    width: 32px;
+    fill: #6487fa;
+}
+nav.navbar .navbar-elements .navbar-element{
+    margin-right: 47px;
+}
+nav.navbar .navbar-elements .navbar-element:last-child{
+    margin-right: 0px!important;
+}
+.section-first{
+    color:#6487fa;
+}
+.section-content{
+    max-width: 1364px;
+    width: 100%;
+    margin: 0 auto;
+}
+.section-content{
+    height: 530px;
+}
+.section-first .section-first-welcome{
+    position: absolute;
+    font-size: 93px;
+    line-height: 96px;
+    font-weight: 300;
+    user-select: none;
+    margin-top: -15px;
+    top: 0;
+    z-index: -10;
+}
+.section-first{
+    overflow: hidden;
+}
+.section-first .section-first-content{
+    height: 530px;
+    display: flex;
+}
+.section-first .section-first-content .section-first-content-dm{
+    font-family: "Benzin";
+    font-weight: 500;
+    font-size: 88px;
+    line-height: 96px;
+    user-select: none;
+}
+.section-first .section-first-content .section-first-content-information{
+    font-size: 24px;
+    font-weight: 300;
+}
+.section-first::after{
+    content: url("/assets/svgs/DanielMyslivets.svg");
+    width: 1070px;
+    position: absolute;
+    bottom: 0;
+    right: -96px;
+    top: 162px;
+    z-index: -20;
+}
+.section-first .section-first-content .section-first-content-itself{
+    background-color: rgba(255, 255, 255, .92);
+    height: 388px;
+    padding: 56px;
+    padding-right: 64px;
+}
+.section{
+    border-bottom: 3.02px solid #e1e1e1;
+    overflow: hidden;
+    position: relative;
+}
+.section-second{
+    background: url("/assets/images/violet.png") center/cover;
+}
+.section-second .section-content{
+    padding-top: 40px;
+    display: flex;
+}
+.section-second .section-content::before{
+    content: url("/assets/images/channels.png");
+    position: absolute;
+    height: 488px;
+    overflow: hidden;
+}
+.section-second .section-content-after{
+    position: absolute;
+    bottom: -64px;
+    right: 0;
+}
+.section-content-after{
+    font-weight: bold;
+    color: rgba(255, 255, 255, .56);
+    user-select: none;
+    font-size: 189px;
+}
+.section-second .section-content .section-content-info{
+    color:#fff;
+    font-weight: 300;
+    margin-left: 582px;
+}
+.section-second .section-content .section-content-info .section-content-info-bigger{
+    font-size: 36px;
+    font-weight: 500;
+}
+.section-second .section-content .section-content-info .section-content-info-default{
+    font-size: 24px;
+}
+.section-second .section-content .section-content-info .section-content-info-big-slight{
+    font-size: 32px;
+    margin-top: 52px;
+    font-weight: 200;
+}
+.section-content{
+    position: relative;
+}
+.section-third .section-content{
+    padding: 32px 56px;
+}
+.section-third .section-bg-gradient{
+    background-image: linear-gradient(to right, #6f6f6f 60vw, transparent);
+}
+.section-third{
+    background-image: url("/assets/images/openvk.png");
+    background-color: #6f6f6f;
+    background-repeat: no-repeat;
+    background-position: right;
+    color:#fff;
+}
+.section-third .section-third-content-information{
+    margin-top: 32px;
+}
+.section-third .section-third-content-information .section-third-content-information-first{
+    font-size: 24px;
+    font-weight: 300;
+}
+.section-third .section-third-content-information .section-third-content-information-second{
+    font-size: 32px;
+    font-weight: 200;
+    margin-top: 50px;
+}
+.section-third .section-content{
+    height: 527px;
+}
+.section-third .section-content-after{
+    position: absolute;
+    bottom: -64px;
+    left: 0;
+}
+.section{
+    height: 530px;
+}
+.section-fourth{
+    background: url("/assets/images/photo.png") center/cover;
+}
+.section-fourth .section-fourth-content{
+    background-color: rgba(0,0,0,.5);
+    height: 530px;
+    text-align: center;
+    color: #fff;
+    padding: 57px;
+    position: relative;
+}
+.section-fourth .section-content-after{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -64px;
+    margin: auto;
+}
+.section-fourth .section-fourth-content-information .section-fourth-content-information-bigger{
+    font-size: 36px;
+    font-weight: 300;
+}
+.section-fourth .section-fourth-content-information .section-fourth-content-information-default{
+    font-size: 24px;
+    font-weight: 300;
+}
+.section-fourth .section-fourth-content-information .section-fourth-content-information-big-slight{
+    font-size: 32px;
+    font-weight: 200;
+    margin-top: 36px;
+}
+.section-fifth{
+    background: url("/assets/images/shorts.png") center/cover #000;
+}
+.section-fifth .section-content{
+    padding: 56px;
+    display: flex;
+}
+.section-fifth .section-content .section-fifth-content-information{
+    color: #fff;
+    font-weight: 300;
+}
+.section-fifth .section-content .section-fifth-content-information .section-fifth-content-information-bigger{
+    font-size: 36px;
+}
+.section-fifth .section-content .section-fifth-content-information .section-fifth-content-information-default{
+    font-size: 24px;
+}
+.section-fifth .section-content::after{
+    position: absolute;
+    right: 0;
+    content: url("/assets/images/dm60seconds.png");
+}
+.section-fifth .section-content-after{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -64px;
+    text-align: center;
+}
+.mini-section{
+    border-bottom: 3.02px solid #e1e1e1;
+    background-color: #000;
+    height: 208px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color:#fff;
+    font-weight: 300;
+    font-size: 36px;
+}
+.section-sixth{
+    background: #000 url("/assets/images/oldpc.png") center/cover;
+    text-align: center;
+}
+.section-sixth .section-content-texts{
+    font-weight: 300;
+    color: #fff;
+    margin: 76px 0;
+}
+.section-sixth .section-content-texts .section-content-text-bigger{
+    font-size: 48px;
+}
+.section-sixth .section-content-texts .section-content-text{
+    font-size: 24px;
+}
+.section-sixth .section-content-socials{
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+}
+.section-sixth .section-content-socials .section-content-social:last-child{
+    margin-right: 0px!important;
+}
+.section-sixth .section-content-socials .section-content-social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    min-width: 150px;
+    min-height: 150px;
+    border-radius: 10px;
+    box-shadow: 0 0 1em 0 #000;
+    margin-right: 65px;
+    cursor: pointer;
+    text-decoration: none!important;
+    color:#000!important;
+    transition: all .2s;
+}
+.section-sixth .section-content-socials .section-content-social:hover{
+    transform: scale(.95);
+}
+.section-sixth .section-content-socials .section-content-social:active{
+    transform: scale(.9);
+}
+footer.footer{
+    padding: 20px 40px;
+    font-weight: 300;
+    display: flex;
+}
+footer.footer .footer-elements-first{
+    font-size: 24px;
+}
+footer.footer .footer-elements-first .footer-element-f{
+    color:#000;
+    text-decoration: none;
+    display: block;
+}
+footer.footer .footer-elements-first .footer-element-f:last-child{
+    color:#9c9c9c;
+}
+footer.footer .footer-elements-second{
+    margin-left: auto;
+    text-align: right;
+    font-size: 18px;
+}
+footer.footer .footer-elements-second .footer-elements-second-gray{
+    color: #9c9c9c;
+}
+.dark--theme, .dark--theme .navbar{
+    background-color: #2b2b2b!important;
+}
+.dark--theme .section, .dark--theme nav.navbar, .dark--theme .mini-section{
+    border-bottom: 3.02px solid #6f6f6f;
+}
+.dark--theme nav.navbar .navbar-content .navbar-logotype .navbar-logotype-text{
+    color:#fff;
+}
+.dark--theme nav.navbar .navbar-content .navbar-logotype{
+    background-image: url("/assets/svgs/DanielMyslivetsWhite.svg");
+}
+.dark--theme .section-first .section-first-content .section-first-content-itself{
+    background-color: rgba(43, 43, 43, .82);
+}
+.dark--theme .section-first{
+    color:#fff;
+}
+.dark--theme .section-first::after{
+    content: url("/assets/svgs/DanielMyslivetsWhite.svg");
+}
+.dark--theme nav.navbar .navbar-elements .navbar-element svg{
+    fill: #fff;
+}
+#LightTheme{
+    display: none;
+}
+.dark--theme #LightTheme{
+    display: block!important;
+}
+.dark--theme #DarkTheme{
+    display: none!important;
+}
+.dark--theme .section-second{
+    background: #404040!important;
+}
+.dark--theme footer.footer, .dark--theme footer.footer .footer-element-f{
+    color: #fff;
+}
